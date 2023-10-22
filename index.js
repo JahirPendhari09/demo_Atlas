@@ -11,6 +11,8 @@ app.use("/users",userRoutes);
 app.use("/products",productRoutes)
 
 
+// Connection
+
 app.listen(8080, async()=>{
     try{
        await connection;
